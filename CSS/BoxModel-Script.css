@@ -1,0 +1,15 @@
+p {
+    width: 100px; /* Specify the width of the content box */
+    height: 50px; /* Specify the height of the content box */
+    padding: 20px; /* Specify the size of the padding */
+    border: 1px solid; /* Specify the size and the thickness of the border */
+}
+
+h1 {
+    width: 350px;
+    height: 30px;
+    padding: 10px;
+    border: 2px solid;
+}
+
+/*Inspect the element in the HTML page to understand better */
