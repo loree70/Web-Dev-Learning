@@ -1,0 +1,38 @@
+/* Here we have all the type of selectors in CSS */
+
+* {
+    padding:2px;   /* Everything will have this property */
+}
+/* This is called "universal selector" and it selects everything in the html file */
+
+header {
+    font-size: 20px; /* Every header will have this property */
+}
+/* This is the "type selector" */
+/*This selects all the elements of the specified type in the html file */
+
+.intro {
+    color: goldenrod; /* Everything with this class will have this property */
+}
+/* This is called the "class selector". */
+/* This is going to refer to all the elements with the class specified */
+/* Note that you have to start the selector with a dot */
+
+#content-section {
+    border: 1px solid silver; /* The element with this id will have this property */
+}
+/* This is called the "ID selector" */
+/* This is going to refer to the element with this ID */
+/* Note that you must start with the "#" */
+
+[data-type] {
+    color: rgb(0, 156, 156); /* Everything that has this attribute will be selected*/
+}
+/* This is called the "attribute selector" */
+/* You can also specify what value it should have */
+/* You must use "[]" */
+
+.list, footer {
+    font-size: 13px;
+}
+/* This way you can group elements and assign the same properties */

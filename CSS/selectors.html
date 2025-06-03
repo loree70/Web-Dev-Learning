@@ -1,0 +1,61 @@
+<!-- The code below is what you must have in every HTML code -->
+
+<!DOCTYPE html> <!-- This is the basic declaration for HTML code-->
+
+<html lang="en"> <!-- This tag is the root element for the HTML document-->
+<!-- The "lang" attribute specify the language of the web page -->
+    <head>
+        <!-- Everything inside this tag won't be shown in the page visually so it's useful to link stylesheets or metadata -->
+
+        <meta charset="UTF-8"/> 
+        <!-- This tag specifies the character encoding for the HTML document -->
+
+        <title> Selectors </title>
+        <!-- This tag specifies the title of the HTML document, which is shown in the browser tab -->
+        
+        <meta name="viewport" content="width=device-width"/>
+        <!-- This tag makes the page adaptable to different screen sizes -->
+
+        <link rel="stylesheet" href="selectors.css"/>
+        <!-- This tag links an external CSS stylesheet -->
+
+    </head>
+
+    <body>
+        <!-- Everything inside this tag will be shown in the page visually so it's useful to put text, images, links, etc. -->
+
+    <header>
+        <h1>Welcome to My Site</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+    
+    <main>
+        <section class="intro">
+            <h2>About Me</h2>
+            <p>This is a simple paragraph with some text to practice CSS styling.</p>
+        </section>
+        
+        <section id="content-section">
+            <div data-type="primary" class="card">
+                <h3>Card Title</h3>
+                <p>Card content goes here.</p>
+                <button>Click Me</button>
+            </div>
+            
+            <ul class="list">
+                <li>List item 1</li>
+                <li>List item 2</li>
+                <li>List item 3</li>
+            </ul>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2025 My Website</p>
+    </footer>
+    </body>
+</html>

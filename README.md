@@ -21,4 +21,5 @@
 - [The CSS box model](CSS/BoxModel.png).
     - [HTML file](CSS/example.html).
     - [CSS file](CSS/BoxModel-Script.css).
-
+- [To learn about selectors:](CSS/selectors.css)
+    - [Here is the HTML](CSS/selectors.html)
