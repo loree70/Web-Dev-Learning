@@ -36,3 +36,9 @@ header {
     font-size: 13px;
 }
 /* This way you can group elements and assign the same properties */
+
+div.card[data-type="primary"] {
+    background: yellow;
+}
+/* You can also use everything to select things */
+/* In this case all the divs with the card class that have the attribute data-type="primary" are going to be affected */
