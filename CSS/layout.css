@@ -1,0 +1,47 @@
+/* To set up the layout use the display property */
+
+/*Referring to line 31-35*/
+.box {
+    display: block; /*Now the div is a box*/
+    border: 2px solid;
+}
+/*Block items create a new line for themselves and takes all the width of the line*/
+
+/*Referring to line 38-41*/
+.inline {
+    display: inline; /* Inline elements behave like words in a sentence */
+}
+
+/*Referring to line 45-48*/
+.inline-block {
+    display: inline-block; /* Inline blocks behave like a block but are inline*/
+    border: 2px solid;
+}
+
+/*Referring to line 52- */
+#image-1 {
+    float: left; /*Like this the image would be positioned in the left side */
+}
+/*Text would be wrapped around*/
+
+#image-2 {
+    float: right; /*You can also set up to the right*/
+}
+
+/*Referring to line 65-75*/
+.countries {
+    column-count: 2; /*How many columns you want to split the list into*/
+    column-gap: 100px; /*Gap between them*/
+}
+/*Used to split lists in columns*/
+
+/* Referring to line 79-96*/
+.child-flexbox {
+    border: 2px solid;
+}
+
+.flexbox {
+    display: flex;
+}
+/* Flexbox is used to layout child element of an element */
+/* It stretches the elements in the width axis instead of the height one and puts them next to each other */

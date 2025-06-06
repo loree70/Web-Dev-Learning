@@ -1,0 +1,99 @@
+<!-- The code below is what you must have in every HTML code -->
+
+<!DOCTYPE html> <!-- This is the basic declaration for HTML code-->
+
+<html lang="en"> <!-- This tag is the root element for the HTML document-->
+<!-- The "lang" attribute specify the language of the web page -->
+    <head>
+        <!-- Everything inside this tag won't be shown in the page visually so it's useful to link stylesheets or metadata -->
+
+        <meta charset="UTF-8"/> 
+        <!-- This tag specifies the character encoding for the HTML document -->
+
+        <title> Layouts </title>
+        <!-- This tag specifies the title of the HTML document, which is shown in the browser tab -->
+        
+        <meta name="viewport" content="width=device-width"/>
+        <!-- This tag makes the page adaptable to different screen sizes -->
+
+        <link rel="stylesheet" href="layout.css"/>
+        <!-- This tag links an external CSS stylesheet -->
+    </head>
+
+    <body>
+        <!-- Everything inside this tag will be shown in the page visually so it's useful to put text, images, links, etc. -->
+
+        <header>
+            <h1>Layout things:</h1>
+        </header>
+
+        <main>
+            <!--Example of box display-->
+            <h1>Example of box display</h1>
+            <div class="box">
+                <p>Hi, I am a box!</p>
+            </div>
+
+            <!--Example of inline display-->
+            <h1>Example of inline display</h1>
+            <div class="inline">
+                <p>Hi, I am inline now!</p>
+            </div>
+
+            <br>
+            <!--Inline box:-->
+            <h1>Inline box:</h1>
+            <div class="inline-block">
+                I am special! I have block characteristics but I am inline!!!
+            </div>
+
+            <br>
+            <!--Wrapping an image:-->
+            <h1>Wrap an image!</h1>
+            <img src="media/cat.jpg" width="400px" height="265px" id="image-1">
+            <p>Cats are fascinating creatures that have captivated humans for thousands of years. These independent yet affectionate animals possess an almost magical ability to be simultaneously aloof and deeply bonded with their human companions.
+            What makes cats so intriguing is their duality. They can spend hours in perfect stillness, seemingly meditating, then suddenly explode into frenzied play, chasing invisible prey or pouncing on a piece of string with the intensity of a wild predator. This behavior reflects their evolutionary heritage as both solitary hunters and adaptable companions.
+            The relationship between cats and humans is unlike any other pet bond. Dogs may worship their owners, but cats choose to grace us with their presence. They have an uncanny ability to sense when we need comfort, appearing at just the right moment to curl up in our laps or purr against our chest. Yet they also maintain their independence, reminding us that we share our homes with creatures who could survive perfectly well without us if they chose to.</p>
+
+            <br>
+            <img src="media/cat.jpg" id="image-2" width="400px" height="265px">
+            <p>Perhaps most remarkable is how cats have trained us rather than the other way around. They've learned to manipulate their meows to communicate specifically with humans, developing a language they don't use with other cats. They've convinced us to serve them meals on demand, provide warm spots by windows, and even clean their bathrooms daily.
+            In a world that often feels chaotic and demanding, cats offer a lesson in the art of simply being. They find joy in small things, prioritize rest and comfort, and approach life with a confidence that suggests they know something we don't. Maybe that's why we find them so compelling.</p>
+
+            <br>
+            
+            <!--Example of multicolumn layout-->
+            <h1>Some countries:</h1>
+            <ul class="countries">
+                <li>Italy</li>
+                <li>Argentina</li>
+                <li>Aland Islands</li>
+                <li>Albania</li>
+                <li>Algeria</li>
+                <li>American Samoa</li>
+                <li>Andorra</li>
+            </ul>
+
+            <br>
+
+            <!--Example with flexbox off-->
+            <h1> Example with flexbox off!</h1>
+            <div class="flexbox-off">
+                <div class="child-flexbox">I am a child element!</div>
+                <div class="child-flexbox">I am the second child element!</div>
+                <div class="child-flexbox">I am the third child element!</div>
+            </div>
+
+            <br>
+            <br>
+
+            <!--Example of flexbox on-->
+            <h1>Example of flexbox on</h1>
+            <div class="flexbox">
+                <div class="child-flexbox">I am a child element!</div>
+                <div class="child-flexbox">I am the second child element!</div>
+                <div class="child-flexbox">I am the third child element!</div>
+            </div>
+        </main>
+    </body>
+</html>
